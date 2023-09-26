@@ -7,7 +7,7 @@ public class day2
 
 
 {
-	@Test
+	@Test(groups={"Smoke"})
 	
 	public void payLoan() 
 	{

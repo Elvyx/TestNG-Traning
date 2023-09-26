@@ -23,7 +23,7 @@ public class day3 {
 		System.out.println("Execute before the class");
 		
 	}
-	@Test
+	@Test(groups={"Smoke"})
 	public void mobileSignupHome()
 	{
 		System.out.println("mobileSignupHome");

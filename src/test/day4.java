@@ -22,7 +22,7 @@ public class day4 {
 		System.out.println("Execute after each method");
 	}
 	
-	@Test
+	@Test(groups={"Smoke"})
 	public void mobileLoginCar()
 	{
 		System.out.println("mobileLoginCar");
